@@ -1,0 +1,14 @@
+li {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  margin: 15px;
+  list-style: none;
+  float: left;
+}
+li:nth-child(odd) {
+  background-color: yellow;
+}
+li:nth-child(even) {
+  background-color: rgb(20, 20, 20);
+}
